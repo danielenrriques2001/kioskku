@@ -3,7 +3,7 @@ import axios from 'axios'
 import { useRouter } from "next/router";
 import { toast } from 'react-toastify';
 
-
+    
 const KioskContext = createContext();
 
 
