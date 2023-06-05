@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react'
 import Layout from '../layout/layout'
 import UseKiosk from '../hooks/UseKiosk';
 import { getCurrencyFormat } from '../helpers';
+
 const Total = () => {
 
   const {order, handleOrderSubmit, total, name, SetName} = UseKiosk();
@@ -42,7 +43,7 @@ const Total = () => {
 
                 <div className='mt-10'>
                   <p className='text-2xl'>Pending to pay : {''} 
-                    <span className='font-bold'>{getCurrencyFormat(total)}</span>
+                    <span className='font-bold'>{getCurrencyFormat(Number(total))}</span>
                   </p>
                 </div>
 
