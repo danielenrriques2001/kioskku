@@ -12,7 +12,7 @@ const Home = () => {
       >{currentCategory?.name}</h1>
 
       <p>
-        Choose and Costumize your order !
+        Choose and Costumize your order!
       </p>
 
           <div className='grid gap-4 grid-cols2 xl:grid-cols-3 2xl:grid-cols-4'> 
